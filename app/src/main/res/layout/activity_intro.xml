@@ -6,4 +6,13 @@
     android:layout_height="match_parent"
     tools:context="com.example.sohyun_mac.layoutpractice.IntroActivity">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="@font/nanumbarunpenr"
+        android:gravity="center"
+        android:text="@string/intro_name"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
 </android.support.constraint.ConstraintLayout>

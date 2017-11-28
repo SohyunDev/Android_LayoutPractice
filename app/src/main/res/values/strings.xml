@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LayoutPractice</string>
+    <string name="intro_name">레이아웃 연습</string>
 </resources>
