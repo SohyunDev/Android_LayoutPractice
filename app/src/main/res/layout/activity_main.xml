@@ -6,4 +6,75 @@
     android:layout_height="match_parent"
     tools:context="com.example.sohyun_mac.layoutpractice.MainActivity">
 
+    <TextView
+        android:id="@+id/view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view_title">
+
+
+        <Button
+            android:id="@+id/btn_linear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:background="@color/colorAccent"
+            android:layout_marginBottom="10dp"
+            android:text="@string/main_linear" />
+
+        <Button
+            android:id="@+id/btn_relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:background="@color/colorAccent"
+            android:layout_marginBottom="10dp"
+            android:text="@string/main_relative" />
+
+        <Button
+            android:id="@+id/btn_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:background="@color/colorAccent"
+            android:layout_marginBottom="10dp"
+            android:text="@string/main_grid" />
+
+        <Button
+            android:id="@+id/btn_frame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:background="@color/colorAccent"
+            android:layout_marginBottom="10dp"
+            android:text="@string/main_frame" />
+
+        <Button
+            android:id="@+id/btn_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:background="@color/colorAccent"
+            android:layout_marginBottom="10dp"
+            android:text="@string/main_scroll" />
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

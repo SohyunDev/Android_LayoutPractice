@@ -1,4 +1,13 @@
 <resources>
     <string name="app_name">LayoutPractice</string>
     <string name="intro_name">레이아웃 연습</string>
+
+    <!-- mainActivity String -->
+    <string name="main_title">보고싶은 Layout을 선택하세요</string>
+    <string name="main_linear">Linear Layout 예시</string>
+    <string name="main_relative">Relative Layout 예시</string>
+    <string name="main_grid">Grid Layout 예시</string>
+    <string name="main_frame">Frame Layout 예시</string>
+    <string name="main_scroll">Scroll Layout 예시</string>
+
 </resources>
