@@ -10,13 +10,20 @@
     <string name="main_frame">Frame Layout 예시</string>
     <string name="main_scroll">Scroll Layout 예시</string>
 
-    <!-- LinearActivity String -->
-    <string name="linear_vert">Vertical Linear Layout</string>
-    <string name="linear_hor">Horizontal Linear Layout</string>
+    <!-- Number String -->
     <string name="one">1</string>
     <string name="two">2</string>
     <string name="three">3</string>
     <string name="four">4</string>
     <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+
+    <!-- LinearActivity String -->
+    <string name="linear_vert">Vertical Linear Layout</string>
+    <string name="linear_hor">Horizontal Linear Layout</string>
+
+    <!-- RelativeActivity String -->
+    <string name="relative_title">Relative Layout</string>
 
 </resources>

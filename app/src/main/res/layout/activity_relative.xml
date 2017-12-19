@@ -1,9 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.sohyun_mac.layoutpractice.RelativeActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/relative_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="@string/relative_title"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/relative_one"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="30sp"
+        android:text="@string/one"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorAccent"
+        android:layout_below="@id/relative_title" />
+
+    <TextView
+        android:id="@+id/relative_two"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="30sp"
+        android:text="@string/two"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorAccent"
+        android:layout_toRightOf="@+id/relative_one"
+        android:layout_toEndOf="@id/relative_one"
+        android:layout_below="@id/relative_title"/>
+
+    <TextView
+        android:id="@+id/relative_three"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:textSize="30sp"
+        android:text="@string/three"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/relative_title"/>
+
+    <TextView
+        android:id="@+id/relative_four"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:textSize="30sp"
+        android:text="@string/four"
+        android:gravity="center"
+        android:background="@color/colorPrimary"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/relative_five"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:text="@string/five"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_toRightOf="@id/relative_four"
+        android:layout_toEndOf="@id/relative_four"
+        android:layout_alignTop="@id/relative_four"/>
+
+    <TextView
+        android:id="@+id/relative_six"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textSize="20sp"
+        android:text="@string/six"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/relative_four"
+        android:layout_toEndOf="@id/relative_four"
+        android:layout_below="@id/relative_five"/>
+
+    <TextView
+        android:id="@+id/relative_seven"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:text="@string/seven"
+        android:gravity="center"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
