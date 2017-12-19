@@ -2,12 +2,21 @@
     <string name="app_name">LayoutPractice</string>
     <string name="intro_name">레이아웃 연습</string>
 
-    <!-- mainActivity String -->
+    <!-- <MainActivity String -->
     <string name="main_title">보고싶은 Layout을 선택하세요</string>
     <string name="main_linear">Linear Layout 예시</string>
     <string name="main_relative">Relative Layout 예시</string>
     <string name="main_grid">Grid Layout 예시</string>
     <string name="main_frame">Frame Layout 예시</string>
     <string name="main_scroll">Scroll Layout 예시</string>
+
+    <!-- LinearActivity String -->
+    <string name="linear_vert">Vertical Linear Layout</string>
+    <string name="linear_hor">Horizontal Linear Layout</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
 
 </resources>
